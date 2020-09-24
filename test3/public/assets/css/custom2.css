@@ -1,0 +1,256 @@
+/* body { */
+/*     background-color: #f8f9fa; */
+/* } */
+
+.app_gdpr {
+    display: none;
+}
+
+.banner_part {
+    min-height: 100vh;
+}
+
+.form h2 {
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 35pt;
+    color: #a48b31;
+}
+
+.wizard > .content {
+    background: #eeeeee;
+    margin: 0px;
+    min-height: 150px;
+    padding: 28px 14px 28px 28px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.wizard > .steps > ul > li {
+    display: none;
+}
+
+.wizard > .content > .body {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0 0;
+    position: static;
+    color: #484848;
+}
+
+.comment-form .form-control {
+    border: 0px solid transparent;
+    border-radius: 10px;
+    /* font-weight: bold; */
+}
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active {
+    background-color: #a48b31;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #a48b31;
+    border: 0px solid transparent !important;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #a48b31;
+    border: 0px solid transparent !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.109) !important;
+}
+
+b,
+sup,
+sub,
+u,
+del {
+    color: #a48b31;
+}
+
+.loading-overlay.loading-theme-light {
+    /* box-shadow: 0px 0px 10px #fff!important; */
+    border-radius: 20px;
+}
+
+.ip-address h2 {
+    padding-bottom: 0px;
+    color: #181919;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #a48b31;
+}
+
+.main_menu .navbar .main-menu-item .navbar-nav a {
+    font-weight: 500;
+}
+
+@keyframes swipe_left {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes swipe_right {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.swipeleft {
+    margin-right: -40px;
+    animation: swipe_left infinite 3s linear reverse;
+}
+
+.swiperight {
+    margin-left: -40px;
+    animation: swipe_right infinite 3s linear reverse;
+}
+
+.portfolio-border {
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.enquiry {
+    color: red;
+    font-size: 11pt !important;
+}
+
+@media (max-width: 1024px) {
+    .enquiry {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .enquiry {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .enquiry {
+        font-size: 14px !important;
+    }
+}
+
+/* 
+.bootstrapiso .enquiry {
+  color: red;
+  font-size: 11pt!important;
+}
+
+@media (max-width:1024px) {
+  .bootstrapiso .enquiry {
+    font-size: 10px!important;
+  }
+}
+
+@media (max-width:768px) {
+  .bootstrapiso .enquiry {
+    font-size: 14px!important;
+  }
+}
+
+@media (max-width:426px) {
+  .bootstrapiso .enquiry {
+    font-size: 9px!important;
+  }
+} */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #a48b31;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.alertify-logs {
+    z-index: 999;
+}
+
+.slick-slide.slick-current.slick-active > div {
+    display: flex;
+}
+
+#st-cmp-v2 {
+    display: none !important;
+}
+
+.articles-image {
+    width: 100%;
+    height: 150px;
+    background-position: center !important;
+    background-size: cover !important;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.insights .article-subtitle {
+    line-height: 1.3em;
+}
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border-radius: 30px; */
+    border-style: hidden;
+    box-shadow: 0 0 0 1px;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+    color: #000;
+}
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}

@@ -1,5 +1,3 @@
-@extends('layout')
-@section('container')
 <section class="about_part section-padding" id="portfolio">
     <div class="container">
         <div class="row d-block mb-5 px-5">
@@ -282,4 +280,3 @@
         </div>
     </div>
 </section>
-@stop
