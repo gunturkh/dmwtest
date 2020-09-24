@@ -16,12 +16,12 @@
                             <li class="nav-item active">
                                 <a class="nav-link" href="/data">Data</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://sinovgpl.com/#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://sinovgpl.com/#bizcolab">Business Collaboration</a>
-                            </li>
+                            {{-- <li class="nav-item"> --}}
+                            {{--     <a class="nav-link" href="https://sinovgpl.com/#portfolio">Portfolio</a> --}}
+                            {{-- </li> --}}
+                            {{-- <li class="nav-item"> --}}
+                            {{--     <a class="nav-link" href="https://sinovgpl.com/#bizcolab">Business Collaboration</a> --}}
+                            {{-- </li> --}}
                            <!-- <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,10 +32,10 @@
                               <a class="dropdown-item" href="single-blog.html">Single blog</a>
                            </div>
                         </li> --> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://sinovgpl.com/#contact">Contact us</a>
-                            </li>
-                        </ul>
+                            {{-- <li class="nav-item"> --}}
+                            {{--     <a class="nav-link" href="https://sinovgpl.com/#contact">Contact us</a> --}}
+                            {{-- </li> --}}
+                        {{-- </ul> --}}
                     </div>
                 </nav>
             </div>
