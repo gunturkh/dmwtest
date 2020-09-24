@@ -282,4 +282,53 @@
         </div>
     </div>
 </section>
+<section class="form padding_med" id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 d-none d-sm-block coverForm">
+            </div>
+            <div class="col-sm-12 col-lg-6 col-12">
+                <div class="row justify-content-center">
+                    <h2>Let's Connect</h2>
+                </div>
+                <div class="row justify-content-center" id="formLoading">
+                    <div class="col-12 col-sm-10">
+                        <form action="https://sinovgpl.com/form/submit" method="post" id="main-form" class="comment-form">
+                            <input type="hidden" name="_token" value="s26SJ5ZtEj1rGT9bWHi0JJbeU9XHDw0je6UDrmCp">
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <input required="" type="text" name="name" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row form-group">
+                                <div class="col">
+                                    <input required="" type="text" placeholder="Phone" name="phone" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <input required="" type="email" placeholder="Email" name="email" class="form-control">
+                                </div>
+                            </div>
+                            <input required="" type="text" placeholder="Email" name="page" value="landing" class="d-none form-control">
+                            <div id="hcaptcha" data-sitekey="657e5f0b-51c2-4b2b-a16c-137c880b5e55" data-callback="onSubmit" data-size="invisible" class="h-captcha form-group row mb-1">
+                                <div class="col-sm-12">
+                                    <select class="form-control nice-select wide" name="formType" id="formType" style="display: none;">
+                                        <option value="0" data-display="Select Form">Select Below</option>
+                                        <option id="selectThis" value="FOR5e676a2321b18">General Enquiry</option>
+                                    </select>
+                                    <div class="nice-select form-control wide" tabindex="0"><span class="current">Select Form</span><ul class="list"><li data-value="0" data-display="Select Form" class="option selected">Select Below</li><li data-value="FOR5e676a2321b18" class="option">General Enquiry</li></ul></div>
+                                </div>
+                            <iframe src="https://assets.hcaptcha.com/captcha/v1/fac4185/static/hcaptcha-checkbox.html#id=0v43qmjy6q6&amp;host=sinovgpl.com&amp;sentry=true&amp;reportapi=https%3A%2F%2Faccounts.hcaptcha.com&amp;recaptchacompat=true&amp;sitekey=657e5f0b-51c2-4b2b-a16c-137c880b5e55&amp;size=invisible" title="widget containing checkbox for hCaptcha security challenge" tabindex="0" frameborder="0" scrolling="no" data-hcaptcha-widget-id="0v43qmjy6q6" data-hcaptcha-response="" style="display: none;"></iframe><textarea id="g-recaptcha-response-0v43qmjy6q6" name="g-recaptcha-response" style="display: none;"></textarea><textarea id="h-captcha-response-0v43qmjy6q6" name="h-captcha-response" style="display: none;"></textarea></div>
+                            <div id="formContainer">
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 d-none d-sm-block coverForm">
+            </div>
+        </div>
+    </div>
+</section>
 @stop
